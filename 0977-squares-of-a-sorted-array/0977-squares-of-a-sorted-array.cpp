@@ -7,7 +7,7 @@ public:
         vector<int> neg;
         vector<int> pos;
 
-        // Divide into negative and positive
+        
         for(int k = 0; k < siz; k++) {
             if(a[k] < 0) {
                 neg.push_back(a[k]);
@@ -17,7 +17,7 @@ public:
             }
         }
 
-        // Only positive numbers
+        
         if(neg.size() == 0) {
             for(int k = 0; k < pos.size(); k++) {
                 pos[k] = pos[k] * pos[k];
@@ -25,7 +25,7 @@ public:
             return pos;
         }
 
-        // Only negative numbers
+     
         if(pos.size() == 0) {
             for(int k = 0; k < neg.size(); k++) {
                 neg[k] = neg[k] * neg[k];
@@ -39,20 +39,19 @@ public:
         int n = neg.size();
         int m = pos.size();
 
-        // Square negative numbers
         for(int k = 0; k < n; k++) {
             neg[k] = neg[k] * neg[k];
         }
 
-        // Reverse because negative squares are currently descending
+       
         reverse(neg.begin(), neg.end());
 
-        // Square positive numbers
+       
         for(int k = 0; k < m; k++) {
             pos[k] = pos[k] * pos[k];
         }
 
-        // Merge
+       
         int i = 0;
         int j = 0;
         int id = 0;
