@@ -3,22 +3,24 @@ public:
     int maximumSum(vector<int>& a) {
         int n = a.size();
 
-        int noDel = a[0];
-        int oneDel = INT_MIN;
+        int nodelete = a[0];
+        int onedelete = INT_MIN;
         int ans = a[0];
 
         for (int i = 1; i < n; i++) {
 
-            int prevNoDel = noDel;
+            int prevnodlt = nodelete;
 
-            noDel = max(a[i], noDel + a[i]);
+            nodelete = max(a[i], nodelete + a[i]);
 
-            if (oneDel == INT_MIN)
-                oneDel = prevNoDel;
-            else
-                oneDel = max(prevNoDel, oneDel + a[i]);
+            if (onedelete == INT_MIN) {
+                onedelete = prevnodlt;
+            }
+            else {
+                onedelete = max(prevnodlt, onedelete + a[i]);
+            }
 
-            ans = max(ans, max(noDel, oneDel));
+            ans = max(ans, max(nodelete, onedelete));
         }
 
         return ans;
