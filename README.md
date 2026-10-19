@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/thakur014/leetwork/tree/master/0977-squares-of-a-sorted-array) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/thakur014/leetwork/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/thakur014/leetwork/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
+| [2270-number-of-ways-to-split-array](https://github.com/thakur014/leetwork/tree/master/2270-number-of-ways-to-split-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/thakur014/leetwork/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/thakur014/leetwork/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/thakur014/leetwork/tree/master/0724-find-pivot-index) |
+| [2270-number-of-ways-to-split-array](https://github.com/thakur014/leetwork/tree/master/2270-number-of-ways-to-split-array) |
 ## String
 |  |
 | ------- |
